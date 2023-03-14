@@ -19,7 +19,7 @@ function App() {
     category,
   });
   const [jobs, setJobs] = useState(localArr ? localArr : []);
-  var { jobid, title, nd, category } = job1;
+  // var { jobid, title, nd, category } = job1;
   var [id, setId] = useState(1);
   var [index1, setIndex] = useState(0);
 
